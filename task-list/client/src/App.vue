@@ -8,8 +8,8 @@
 
 <script>
 import MainPageLayout from '@/layouts/MainPageLayout.vue'
-import AppHeader from '@/components/AppHeader.vue'
-import AppFooter from '@/components/AppFooter.vue'
+import AppHeader from '@/components/SharedComponents/AppHeader.vue'
+import AppFooter from '@/components/SharedComponents/AppFooter.vue'
 
 export default {
     components: {
