@@ -4,6 +4,18 @@
     </div>
 </template>
 <script>
+import TaskService from '@/services/taskService.js'
+
+export default {
+    methods: {
+        getTasks: () => {
+            
+        }
+    },
+    mounted: () => {
+        TaskService.getAllTasks()
+    }
+}
 
 </script>
  
